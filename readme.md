@@ -1,5 +1,7 @@
 # Machine Learning Microservice on Kubernetes
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/zakariaBoukernafa/ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/zakariaBoukernafa/ml-microservice-kubernetes/tree/master)
+
 This repository contains the code and documentation for a machine learning microservice that is deployed on a Kubernetes cluster. The microservice exposes a simple REST API that allows users to send requests and receive predictions from a machine learning model.
 
 ## Requirements
@@ -19,7 +21,6 @@ This repository contains the code and documentation for a machine learning micro
 Run the Docker image:
 
         ./run_docker.sh
-
 
 Push the Docker image to Docker Hub:`
 
